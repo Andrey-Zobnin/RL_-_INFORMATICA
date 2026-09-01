@@ -9,7 +9,7 @@
 // функция основная
 int main() 
 {
-    int a = -245;
+    float a = -245;
     // printf("Hello, world! \n"); // что такое комментарий
     printf("a = %i\n", a);
     printf("a = %u\n", a);
