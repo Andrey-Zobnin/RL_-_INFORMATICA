@@ -9,9 +9,11 @@
 // функция основная
 int main() 
 {
-    int a = 0;
+    int a = -245;
     // printf("Hello, world! \n"); // что такое комментарий
-    // printf("a = %d\n", a);
+    printf("a = %i\n", a);
+    printf("a = %u\n", a);
+    printf("a = %d\n", a);
     return 0; 
     /*
     Большой комментарий в несколько строк
