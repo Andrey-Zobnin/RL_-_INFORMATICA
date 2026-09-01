@@ -9,7 +9,7 @@
 // функция основная
 int main() 
 {
-    int a;
+    int a = 0;
     // printf("Hello, world! \n"); // что такое комментарий
     printf("a = %d\n", a);
     return 0; 
