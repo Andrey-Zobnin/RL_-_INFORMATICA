@@ -11,7 +11,7 @@ int main()
 {
     int a = 0;
     // printf("Hello, world! \n"); // что такое комментарий
-    printf("a = %d\n", a);
+    // printf("a = %d\n", a);
     return 0; 
     /*
     Большой комментарий в несколько строк
