@@ -13,7 +13,7 @@ Input Output Stream - `#include <iostream>`
 
 // функция - это подпрограмма, которая возвращает результат и производит какие-то действия
 
-void main() {
+int main() {
     
     printf("Hello World!\n")
     // return 0; 
