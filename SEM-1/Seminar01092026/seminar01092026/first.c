@@ -9,7 +9,7 @@
 
 int main() 
 {
-    printf("Hello, world! \n");
+    printf("Hello, world! \n"); // что такое комментарий
     return 0; 
 
 }
