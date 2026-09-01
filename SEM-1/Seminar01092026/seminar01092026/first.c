@@ -9,6 +9,7 @@
 
 int main() 
 {
+    int a = 0;
     printf("Hello, world! \n"); // что такое комментарий
     return 0; 
     /*
