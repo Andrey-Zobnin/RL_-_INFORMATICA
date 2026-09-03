@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/User/Documents/Obsidian Vault/RL-1-IFORM/LAB03092026",
+      "program": "c:/Users/User/Documents/Obsidian Vault/RL-1-IFORM/LAB03092026/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
