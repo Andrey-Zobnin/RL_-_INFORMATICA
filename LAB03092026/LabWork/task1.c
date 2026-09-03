@@ -1,29 +1,27 @@
 #include <stdio.h>
 #include <math.h>
+// #include <stdboo>
+#include <stdbool.h>
 
 int main()
 {
-    int num = 0, res = 0, digit0 = 0, digit1 = 0, digit3 = 0, digit4 = 0;
+    int num = 0, res = 0;
+    int a1, a2, a3, a4;
+    bool isPalindrome;
     
-    // ввод чисел пишем юзеру что вводить и забираем у него
     printf("Введите пятизначное число: ");
     scanf("%d", &num);
     
     res = num;
     
-    // основная логика
-    digit0 = num / 10000;           
-    digit1 = (num / 1000) % 10;     
-    digit3 = (num / 10) % 10;       
-    digit4 = num % 10;              
+    a1 = num / 10000;
+    a2 = (num / 1000) % 10;
+    a3 = (num / 10) % 10;
+    a4 = num % 10;
     
-    // Проверяем: первая = последней И вторая = предпоследней
+    isPalindrome = (a1 == a4) && (a2 == a3);
     
-    // if (digit0 == digit4 && digit1 == digit3) {
-    //     printf("Num is %d palindromm\n", res);
-    // } else {
-    //     printf("NUm %d not palindromm\n", res);
-    // }
+    printf("%d %d\n", res, isPalindrome);
     
     return 0;
 }
