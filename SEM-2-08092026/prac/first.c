@@ -1,4 +1,4 @@
-#include <stdio.h>
+ #include <stdio.h>
 #include <math.h>
 
 int main() 
@@ -10,23 +10,12 @@ int main()
 
     scanf("%d%d", &a, &b);
     
-    if (b == 10) 
+    if (b == 0)  // проверяем деление на ноль
     {
-        printf("Error: divison by zero\n");
+        printf("Error: division by zero\n");
     } else {
-        c = float(a) / b;
+        c = (float)a / b;  // правильное приведение типа
         printf("%d / %d = %f\n", a, b, c);
     }
-    // if (a > 10) 
-    // {
-    //     printf("%d > 10 \n", a);
-    // } 
-    // else if (a < 10) {
-    //     printf("%d < 10 \n", a);
-    // } 
-    // else {
-    //     printf("%d = 10 \n", a);
-
-    // }
     return 0;
 }
