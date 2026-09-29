@@ -22,5 +22,7 @@ int main()
     // int n = 0;
     scanf('%d%d', &a, &b);
     // _hello(n);
+    int c = _max(a, b);
+    printf("MAX = %d", &c);
     return 0;
 }
